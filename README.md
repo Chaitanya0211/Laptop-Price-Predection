@@ -1,4 +1,5 @@
 #### Project Overview
+
 **Title**: Laptop Price Predictor
 
 **Objective**: 
@@ -46,16 +47,46 @@ laptop-price-predictor/
 #### Project Details
 
 ##### Data Collection
-- The dataset includes various features related to laptop specifications.
+
+The dataset used in this project includes the following features:
+- **Company**: The manufacturer of the laptop (e.g., Apple, HP, Dell).
+- **TypeName**: The type of laptop (e.g., Ultrabook, Gaming, Notebook).
+- **Ram**: Amount of RAM in GB.
+- **Weight**: Weight of the laptop in kg.
+- **Touchscreen**: Whether the laptop has a touchscreen (0: No, 1: Yes).
+- **Ips**: Whether the laptop has an IPS display (0: No, 1: Yes).
+- **PPI**: Pixels per inch, a measure of screen resolution.
+- **Cpu_brand**: The brand of the CPU (e.g., Intel Core i5, Intel Core i7).
+- **HDD**: The size of the hard disk drive in GB.
+- **SSD**: The size of the solid-state drive in GB.
+- **Gpu_brand**: The brand of the GPU (e.g., Intel, AMD).
+- **os**: The operating system (e.g., Windows, Mac).
 
 ##### Data Processing
-- Data cleaning and feature engineering steps are performed to prepare the data for modeling.
+
+- Data cleaning to handle missing values.
+- Feature engineering to convert categorical variables into numerical values using techniques such as one-hot encoding.
+- Normalization or standardization of numerical features to ensure all features contribute equally to the model training.
 
 ##### Model Selection
-- Various regression models are evaluated, and the best-performing model is selected.
 
-##### Model Evaluation
-- Performance metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared are used to assess the model's accuracy.
+- Various regression models were considered, including Linear Regression, Decision Tree Regressor, and Random Forest Regressor.
+
+##### Model Training and Evaluation
+
+- The dataset was split into training and testing sets to evaluate the model's performance.
+- Performance metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared were used to assess the accuracy of the predictions.
+- The best-performing model was selected based on these metrics.
+
+#### Structure
+
+- **Introduction**: Overview of the project and its objectives.
+- **Data Collection and Exploration**: Detailed analysis of the dataset.
+- **Data Processing**: Steps taken to clean and preprocess the data.
+- **Model Selection and Training**: Exploration of different models and their performance.
+- **Model Evaluation**: Detailed evaluation of model performance using various metrics.
+- **Conclusion**: Summary of findings and final thoughts.
 
 #### Conclusion
-The project successfully built a machine learning model to predict laptop prices with reasonable accuracy. Future improvements could include adding more features and using advanced models to enhance prediction accuracy.
+
+The project successfully built a machine learning model to predict laptop prices with reasonable accuracy. The Random Forest Regressor was found to be the best-performing model, providing the lowest Mean Absolute Error and highest R-squared value. Future work could include exploring additional features, using more advanced models, and incorporating real-time price updates to improve prediction accuracy further.
