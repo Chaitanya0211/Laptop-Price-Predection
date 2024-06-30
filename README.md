@@ -20,7 +20,10 @@ laptop-price-predictor/
 ├── app.py                          # Main Flask application
 ├── laptop_data.pkl                 # Preprocessed data for the model
 ├── pipe.pkl                        # Serialized machine learning pipeline
-└── requirements.txt                # Python packages requirements
+├── requirements.txt                # Python packages requirements
+└── ScreenShots/                    # Folder containing screenshots
+    ├── Output.png        
+    ├── Output.png          
 ```
 
 #### Installation
@@ -86,6 +89,11 @@ The dataset used in this project includes the following features:
 - **Model Selection and Training**: Exploration of different models and their performance.
 - **Model Evaluation**: Detailed evaluation of model performance using various metrics.
 - **Conclusion**: Summary of findings and final thoughts.
+
+#### Screenshots
+
+- (ScreenShots/Screenshot 2024-06-30 174932.png)
+- (ScreenShots/2.png)
 
 #### Conclusion
 
