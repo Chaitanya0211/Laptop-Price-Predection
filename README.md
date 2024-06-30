@@ -90,11 +90,6 @@ The dataset used in this project includes the following features:
 - **Model Evaluation**: Detailed evaluation of model performance using various metrics.
 - **Conclusion**: Summary of findings and final thoughts.
 
-#### Screenshots
-
-- (ScreenShots/Screenshot 2024-06-30 174932.png)
-- (ScreenShots/2.png)
-
 #### Conclusion
 
 The project successfully built a machine learning model to predict laptop prices with reasonable accuracy. The Random Forest Regressor was found to be the best-performing model, providing the lowest Mean Absolute Error and highest R-squared value. Future work could include exploring additional features, using more advanced models, and incorporating real-time price updates to improve prediction accuracy further.
